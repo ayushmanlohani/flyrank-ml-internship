@@ -1,0 +1,18 @@
+{
+  "base_rate": 0.5421,
+  "baseline_auc_grouped": 0.5,
+  "honest_roc_auc": 0.61,
+  "memorization_gap": 0.16,
+  "model": "RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42)",
+  "n_clients_test": 7,
+  "n_clients_train": 25,
+  "n_test_rows": 6163,
+  "n_train_rows": 23837,
+  "precision_at_200_baseline": 0.575,
+  "precision_at_200_model": 0.575,
+  "precision_at_50_baseline": 0.7,
+  "precision_at_50_model": 0.56,
+  "random_roc_auc": 0.77,
+  "seed": 42,
+  "split": "GroupShuffleSplit on client_id, test_size=0.2"
+}
